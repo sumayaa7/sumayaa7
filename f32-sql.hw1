@@ -28,12 +28,11 @@ Uses the Windows account of the user to connect. It’s more secure and integrat
 Uses a separate username and password defined within SQL Server. This is useful when Windows accounts are not available.
 
 Medium;
-1,2.create database schoolIDB;
+1,2. CREATE DATABASE SchoolIDB;
 go
+CREATE TABLE Students (studentsID int, primary key, name varchar(50), age int) ;
 
-create table students (studentsID int, primary key, name varchar(50), age int) ;
-
-3.SQL Server
+3. SQL Server
 A database management system (DBMS) developed by Microsoft. It stores, retrieves, and manages data using SQL. Think of it as the engine that powers databases.
 SSMS
 SQL Server Management Studio is a tool/interface to interact with SQL Server — you can write SQL queries, manage databases, and perform backups, all in one GUI.
